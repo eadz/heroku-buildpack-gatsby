@@ -5,5 +5,5 @@ BUILD_DIR=$1
 cd $BUILD_DIR
 
 yarn
-yarn build
+yarn run gatsby build
 mv public/* ../public/
