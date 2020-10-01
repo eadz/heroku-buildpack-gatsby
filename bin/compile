@@ -5,4 +5,5 @@ BUILD_DIR=$1
 cd $BUILD_DIR
 
 yarn
-yarn build-storybook
+yarn build
+mv public/* ../public/
