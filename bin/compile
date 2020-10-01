@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BUILD_DIR=$1
+BUILD_DIR=$1/marketing
 
 cd $BUILD_DIR
 
